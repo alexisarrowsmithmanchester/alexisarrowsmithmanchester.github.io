@@ -1,1 +1,27 @@
-<p> hello world </p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+MathJax = {
+  tex: {
+    inlineMath: [
+      ['\\(', '\\)']
+    ],
+    displayMath: [
+      ['\\[', '\\]']
+    ],
+    processEscapes: false,
+    formatError: (jax, err) => jax.formatError(err)
+  }
+};
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </head>
+    <body>
+        <i>hello</i> <b>world</b>
+    </body>
+
+
+</html>
+
