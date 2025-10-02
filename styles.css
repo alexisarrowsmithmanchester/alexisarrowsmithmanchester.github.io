@@ -35,6 +35,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "IPA Gothic";
+    src: url(./fonts/IPAGothic\ Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*/ <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name*/
+
 
 html {
   font-size:68%;
@@ -44,7 +54,7 @@ html {
 
 
 body {
-  font-family: "Noto Sans","Tahoma",sans-serif;
+  font-family: "Roboto", "Noto Sans" ,sans-serif;
   font-size:2.3rem;
   line-height:140%;
   color:#010101;
@@ -76,10 +86,6 @@ body {
 .flexed-one {
   flex: 1;
   display: inline-block;
-}
-
-.flexed-one:first-child {
-  margin-right:20px;
 }
 
 .flexed-two {
